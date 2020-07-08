@@ -1,4 +1,4 @@
-package adrianromanski.head_first;
+package adrianromanski.head_first.adapter;
 
 import adrianromanski.head_first.adapter.observable.WeatherData;
 import adrianromanski.head_first.adapter.observers.ShowStatistics;
