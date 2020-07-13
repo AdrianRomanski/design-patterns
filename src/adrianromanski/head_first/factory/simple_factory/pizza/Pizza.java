@@ -31,6 +31,10 @@ abstract public class Pizza {
 
 
     public String toString() {
+        return getString(name, dough, sauce, toppings);
+    }
+
+    public static String getString(String name, String dough, String sauce, ArrayList<String> toppings) {
         StringBuilder display = new StringBuilder();
         display.append("---- ").append(name).append(" ----\n");
         display.append(dough).append("\n");
