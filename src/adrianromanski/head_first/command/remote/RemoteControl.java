@@ -10,8 +10,8 @@ public class RemoteControl {
 		offCommands = new Command[7];
  
 		for (int i = 0; i < 7; i++) {
-			onCommands[i] = () -> {};
-			offCommands[i] = () -> {};
+			onCommands[i] = NoCommand::new;
+			offCommands[i] = NoCommand::new;
 		}
 	}
   
