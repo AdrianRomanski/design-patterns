@@ -1,4 +1,4 @@
-package adrianromanski.head_first.adapter.interfaces;
+package adrianromanski.head_first.observer.interfaces;
 
 public interface Subject {
 

@@ -1,7 +1,7 @@
-package adrianromanski.head_first.adapter.observable;
+package adrianromanski.head_first.observer.observable;
 
-import adrianromanski.head_first.adapter.interfaces.Observer;
-import adrianromanski.head_first.adapter.interfaces.Subject;
+import adrianromanski.head_first.observer.interfaces.Observer;
+import adrianromanski.head_first.observer.interfaces.Subject;
 
 import java.util.ArrayList;
 

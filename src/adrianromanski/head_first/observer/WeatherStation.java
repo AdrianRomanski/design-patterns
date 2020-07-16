@@ -1,8 +1,8 @@
-package adrianromanski.head_first.adapter;
+package adrianromanski.head_first.observer;
 
-import adrianromanski.head_first.adapter.observable.WeatherData;
-import adrianromanski.head_first.adapter.observers.ShowStatistics;
-import adrianromanski.head_first.adapter.observers.ViewCurrentConditions;
+import adrianromanski.head_first.observer.observable.WeatherData;
+import adrianromanski.head_first.observer.observers.ShowStatistics;
+import adrianromanski.head_first.observer.observers.ViewCurrentConditions;
 
 public class WeatherStation {
 

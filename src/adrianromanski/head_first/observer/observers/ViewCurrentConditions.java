@@ -1,8 +1,8 @@
-package adrianromanski.head_first.adapter.observers;
+package adrianromanski.head_first.observer.observers;
 
-import adrianromanski.head_first.adapter.interfaces.Display;
-import adrianromanski.head_first.adapter.interfaces.Observer;
-import adrianromanski.head_first.adapter.interfaces.Subject;
+import adrianromanski.head_first.observer.interfaces.Display;
+import adrianromanski.head_first.observer.interfaces.Observer;
+import adrianromanski.head_first.observer.interfaces.Subject;
 
 public class ViewCurrentConditions implements Observer, Display {
 
