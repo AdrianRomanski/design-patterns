@@ -1,4 +1,4 @@
-package adrianromanski.head_first.facade;
+package adrianromanski.head_first.facade.home_cinema;
 
 public class TheaterLights {
 	String description;
